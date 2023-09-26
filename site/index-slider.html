@@ -24,6 +24,7 @@ VERSION : 1.1
 	<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
         <link rel="stylesheet" type="text/css" href="css/owl.theme.css">
 	<link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+        <link rel ="stylesheet" type="text/css" href="library/vegas/vegas.min.css">
 	<!-- [ Boot STYLESHEET ]
         =========================================================================================================================-->
 	<link rel="stylesheet" type="text/css" href="library/bootstrap/css/bootstrap-theme.min.css">
@@ -93,7 +94,7 @@ VERSION : 1.1
         <div class="overlay">
         <div class="container ">
             <div class="row">
-                <div class="col-md-12 col-sm-12">
+                <div class="col-md-12 col-sm-12 animate fadeInDown">
                    <h1 class="text-capitalize">Welcome on <strong>RAM<span class="themecolor">SH</span></strong></h1>
                <p class="lead">We are a Web Development Company with <strong>years of experience</strong> and with <strong>extraordinary people</strong></p>
                 <button class="btn btn-primary" id="downloadbt">Download Now</button>
@@ -116,7 +117,7 @@ VERSION : 1.1
          <div class="row">
              <div class="col-md-6 col-sm-6">
                <div class="aboutText">
-                        <div class="sectionTitle">
+                        <div class="sectionTitle fadeInDown">
                             <h4>About us</h4>
                             <h2>Some words <strong>about us</strong></h2>
                             <hr>
@@ -663,6 +664,7 @@ VERSION : 1.1
         <script src="library/bootstrap/js/bootstrap.js"></script>
 	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>	
 	<!-- [ PLUGIN SCRIPT ] -->
+        <script src="library/vegas/vegas.min.js"></script>
 	<script src="js/plugins.js"></script>
 	<!-- [ SLIDER SCRIPT ] -->  
         <script src="js/owl.carousel.js"></script> 
@@ -672,8 +674,20 @@ VERSION : 1.1
 	<script src="js/slider.js"></script>
         <!-- [ COMMON SCRIPT ] -->
 	<script src="js/common.js"></script>
+        
+        
+        
+ <script type="text/javascript">
+ $(document).ready(function()
+ {
+  fullscreenslider();
+ }
+ );
+</script>
+        
   
 </body>
+
 
 
 </html>
