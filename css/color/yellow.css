@@ -9,17 +9,17 @@ VERSION : 1.1
 
 .themecolor
 {
-    color:#f8db19;/*Defines the theme color*/
+    color:#fcd359;/*Defines the theme color*/
 }
 
 .theme_background_color,#downloadbt:hover
 {
-    background-color:#f8db19; /*Defines the theme bakcground color*/
+    background-color:#fcd359; /*Defines the theme bakcground color*/
 }
 
 .borderColor
 {
-    border-color:#000;/*Defines the color of the border*/
+    border-color:hsl(0, 0%, 100%);/*Defines the color of the border*/
 }
 .social a,.social-big a
 {
@@ -31,13 +31,19 @@ VERSION : 1.1
 }
 .black
 {
-    color:#000;
+    color:#000000;
 }
 
 .white
 {
     color:#fff;
 }
+
+.red
+{
+    color:#a80000;
+}
+
 .black-background
 {
     background-color:#000;
